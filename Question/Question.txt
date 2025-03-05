@@ -1,0 +1,6 @@
+1. whta is interface in C++? how abstract class and interface are different from each other?
+2. How can be memory allocated for object in C++?
+3. what is dynamic and static scoping? 
+4. what is shallow copy and deep copy. explain with help of example?
+5. what is static cast method in C++?
+6. how operator overloading workd in C++?
