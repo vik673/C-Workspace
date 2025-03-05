@@ -1,0 +1,107 @@
+The Set in C++ Standard Template Library (STL) is a container that stores elements in a sorted and unique manner. It is implemented using a self-balancing binary search tree (Red-Black Tree) and provides efficient operations with logarithmic time complexity.
+Header File: The Set in C++ STL is declared in the header file "set".
+
+What is a Set in C++ STL?
+Syntax:
+
+A set stores elements in a sorted order and does not allow duplicate values. Whenever you insert elements, they get automatically sorted.
+
+set<Type of Data> set_name;
+
+Handling Duplicate Elements
+A set does not allow duplicate values. If you try to insert an existing value, it will be ignored.
+
+Searching for an Element Using find()
+The find() function checks if an element exists in the set.
+
+auto it = s.find(10);
+if (it != s.end())
+    cout << "Found\n";
+else
+    cout << "Not Found\n";
+
+
+auto it = s.find(10);
+if (it != s.end())
+    cout << "Found\n";
+else
+    cout << "Not Found\n";
+1
+auto it = s.find(10);
+2
+if (it != s.end())
+3
+    cout << "Found\n";
+4
+else
+5
+    cout << "Not Found\n";
+
+If the element exists, find() returns an iterator pointing to it.
+If the element does not exist, find() returns s.end().
+
+Removing Elements Using erase()
+ 
+You can remove elements from a set using erase().
+
+Erase by Value
+
+s.erase(10);  // Removes element 10
+
+Erase by Iterator
+
+auto it = s.find(5);
+if (it != s.end())
+    s.erase(it);  // Removes element 5
+
+Erase a Range
+s.erase(s.begin(), s.end()); // Removes all elements
+
+Clearing the Set
+You can remove all elements using clear().
+
+s.clear();
+cout << "Size: " << s.size();  // Output: 0
+
+Counting Elements Using count()
+Since a set does not allow duplicates, count() returns either 0 (not present) or 1 (present).
+
+cout << s.count(10);  // Output: 1 (if 10 exists), 0 (otherwise)
+
+Finding the Lower Bound and Upper Bound
+The lower bound and upper bound functions help in searching for elements efficiently.
+
+    Lower Bound (lower_bound(x)): Returns an iterator to x if it exists, or the next greater element.
+    Upper Bound (upper_bound(x)): Returns an iterator to the next greater element than x.
+Example
+
+auto it = s.lower_bound(10);
+if (it != s.end())
+    cout << *it;
+else
+    cout << "No greater element";
+
+If 10 is present, it returns 10.
+If 10 is not present, it returns the next greater element.
+If 10 is greater than the largest element, it returns s.end().
+
+
+Using set with User-Defined Data Types
+You can use set with custom objects by overloading the < operator.
+
+struct Test {
+    int x;
+    bool operator<(const Test& t) const {
+        return this->x < t.x;
+    }
+};
+
+int main() {
+    set<Test> s;
+    s.insert({5});
+    s.insert({20});
+    s.insert({10});
+
+    for (auto t : s)
+        cout << t.x << " ";
+}

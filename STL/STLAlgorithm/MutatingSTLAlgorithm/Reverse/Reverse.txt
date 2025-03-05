@@ -1,0 +1,14 @@
+In C++, the reverse() is a built-in function used to reverse the order of elements in the given range of elements.
+
+Syntax
+This function is defined inside <algorithm> header file.
+
+reverse(first, last);
+
+Parameters:
+
+first: Iterator to the beginning of the range.
+last: Iterator (end) to the position just beyond the last element of the range.
+Return Value:
+
+This function does not return any value. It reverses the range in-place.

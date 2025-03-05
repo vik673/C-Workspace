@@ -1,0 +1,13 @@
+In C++, merge() function provides an efficient way to combine two sorted sequences into one sorted sequence. It is primarily used in Merge Sort sorting algorithm.
+
+Syntax
+The merge() function is defined in the <algorithm> header file and has the following syntax:
+
+merge(first1, last1, first2, last2, result);
+
+Parameters:
+
+first1, last1: Iterators specifying the range of the first sorted sequence.
+first2, last2: Iterators specifying the range of the second sorted sequence.
+result: Iterator pointing to the beginning of the destination range where the merged elements will be stored.
+Note: The output container should have enough space to accommodate all elements.

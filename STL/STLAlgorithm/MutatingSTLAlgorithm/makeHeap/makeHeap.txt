@@ -1,0 +1,22 @@
+The make_heap() function is used to convert a container into a heap. A heap is a type of tree data structure in which the root node contains the largest (if max heap) or smallest (if min heap) element in its tree. It is true for each node in the tree.
+
+It is generally implemented on random access containers such arrays, vectors and deque. The below shown tree is the example of max heap.
+
+In general, for heaps:
+
+Left Child (i) = 2 * i + 1
+Right Child (i) = 2 * i + 2
+Parent (i) = (i - 1) / 2
+Syntax
+This function is defined in <algorithm> header file.
+
+make_heap(first, last, comp);
+
+Parameters:
+
+first: Iterator to the start of the range.
+last: Iterator to the end of the range.
+comp: An optional comparator function. By default, make_heap creates a max heap, but it can be modified to create a min heap by passing an additional comparison function.
+Return Value:
+
+This function does not return anything.

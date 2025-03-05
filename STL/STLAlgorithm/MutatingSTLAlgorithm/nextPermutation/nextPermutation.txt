@@ -1,0 +1,25 @@
+The next_permutation in C++ is used to rearrange the elements of the given range to the lexicographical larger (next) permutation if it exists. If the sequence is already the largest permutation, it does not modify the sequence and returns false. Otherwise, it modifies the sequence and returns true.
+
+Example:
+
+Input: {1, 2, 3, 4, 5}
+Output: {1, 2, 3, 5, 4}
+
+Input: {1, 2, 5, 4, 3}
+Output: {1, 3, 2, 4, 5}
+
+Input: {5, 4, 3, 2, 1}
+Output: {5, 4, 3, 2, 1}
+
+Syntax
+This function is defined inside <algorithm> header file.
+
+next_permutation(first, last);
+
+Parameters:
+
+first: Iterator pointing to the first element of the range.
+last: Iterator pointing one past the last element of the range.
+Return Value:
+
+Returns true if the permutation was successfully changed.
