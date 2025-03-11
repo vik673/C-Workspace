@@ -1,8 +1,7 @@
 
-// A pointer holds the address of a variable/ object in the memory
+// A pointer holds the address of a variable/object in the memory
 
-// syntax :- Dtaatype* pointerName;
-
+// syntax :- Datatype* pointerName;
 
 // Allocate the memory at runtime using new
 // delete mmeory using delete

@@ -4,7 +4,7 @@ using namespace std;
 
 void incremnet(int* ptr)
 {
-    (*ptr)++; // modiy the value at given address
+    (*ptr)++; // modify the value at given address
 }
 
 int main()

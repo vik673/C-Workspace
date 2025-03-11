@@ -6,5 +6,5 @@ struct Node{
 };
 
 Node* head = new Node();
-head->dtaa = 10;
+head->data = 10;
 head->next = nullptr;

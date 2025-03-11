@@ -16,8 +16,9 @@ enum class FilePermission
 
 int main()
 {
-      FilePermission permission = static_cast<FilePermission>(static_cast<FilePermission>(FilePermission::Read) | static_cast<int>(FilePermission::Write));
-      
+      FilePermission permission = static_cast<FilePermission>(static_cast<FilePermission>(FilePermission::Read) 
+        | static_cast<int>(FilePermission::Write));
+
       if(static_cast<int>(permission) & static_cast<int>(FilePermission::Read))
       {
         cout << "Read permision granted. " << endl;

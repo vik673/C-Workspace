@@ -36,4 +36,3 @@ int main()
 // It is commonly used for:
 // 1. operator overaloading
 // 2. Utility function which need access to private data.
-// 3. 
