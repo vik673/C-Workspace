@@ -29,3 +29,11 @@ int main()
     }
     return 0;
 }
+
+// The friend keywords allows external function or classes to access the private and protected
+// members of a class.
+
+// It is commonly used for:
+// 1. operator overaloading
+// 2. Utility function which need access to private data.
+// 3. 

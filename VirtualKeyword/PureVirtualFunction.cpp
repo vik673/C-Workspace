@@ -2,14 +2,13 @@
 
 using namespace std;
 
-// A pure virtual function is a virtual function with no implementation in the base class.
-// It is declared using =0.
+// A pure virtual function is a virtual function with no implementation
+// in the base class. It is declared using = 0.
 
 // A class containing at least one pure virtual function is called an abstarct class,
 // and it can not be instantiated. 
 
 // Derived classes must override the pure virtual function to become concrete classes.
-
 
 // It is abstract class
 class Shape

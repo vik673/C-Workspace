@@ -1,13 +1,12 @@
 #include <iostream>
 
-// A virtual function is the member function of the base class
-// that can be overridden in the derived class.
-
-// When the function is virtual in the base class,
-// the derived class can provide its own implmentation of the function.
-
+// A virtual function is the member function of the base class that can be overridden in the derived class.
+// When the function is virtual in the base class, The derived class can provide its own implmentation of the function.
 // The correct function (base or derived) is determined at runtime based on the actual object type, not
 // the type of pointer or reference type.
+
+// In C++, the concept of the vitual class does not exist.
+
 using namespace std;
 
 class Base{
@@ -29,9 +28,6 @@ void show() override{
         cout<<"derived class showFunction" << endl;
       }
 };
-
-// Question: this function is working 
-// with and without override keyword.
 
 int main()
 {

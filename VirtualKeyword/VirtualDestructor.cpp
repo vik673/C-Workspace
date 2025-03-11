@@ -1,6 +1,6 @@
 #include<iostream>
 
-// If the ase class pointer is used to deelete a derived class object, 
+// If the class pointer is used to delete a derived class object, 
 // to delete a derived class object. and the base class destructor is not virtual,
 // only the base calss class destructor will be called, leading to the potential memory leaks or undefined behavior.
 
