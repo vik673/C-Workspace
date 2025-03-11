@@ -5,7 +5,6 @@
 // when working with complex types, such as iterator or 
 // template types, auto can make the code more readable.
 
-
 int main()
 {
     std::vector<int> numbers = {1,2,3,4,5};
