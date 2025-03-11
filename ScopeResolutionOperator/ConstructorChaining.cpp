@@ -6,7 +6,7 @@ using namespace std;
 // C++ supports multiple inheritance,
 // where a class can inherit from multiple base class.
 // in such cases, the term super would be ambiguous
-// because it wouldn't be clear which base class is being reffered to.
+// because it wouldn't be clear which base class is being refered to.
 
 // 2. Explicit Control
 // C++ encourages explicit control over which base class

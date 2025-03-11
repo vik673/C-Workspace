@@ -12,12 +12,11 @@ class Base
 };
 
 // 1. using the scope resolution operator.
-// You can directly call the bas class's member function or access its data
-// member using the base calss name and scope resolution operator.
+// You can directly call the base class's member function or access its data
+// member using the base class name and scope resolution operator.
 
 // 2. using this pointer Casting
-// You can cast the this pointer to the base calss tyoe to the base class
-// its members.
+// You can cast the this pointer to the base class type.
 
 class Derived : public Base{
   public:

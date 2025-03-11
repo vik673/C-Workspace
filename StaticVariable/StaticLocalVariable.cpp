@@ -2,8 +2,8 @@
 
 using namespace std;
 
-// Static local variable inside member function behae similarily to sstatic variable in the regular function.
-// They retain their value between function calla and are shred across the function all objects of the function.
+// Static local variable inside member function behave similarily to static variable in the regular function.
+// They retain their value between function call and are shared across the function all objects of the function.
 
 class MyClass
 {
@@ -14,6 +14,9 @@ class MyClass
         cout << "Cout: " << count << endl;
     }
 };
+
+// Static Local variable count is shared across all the objects of the class.
+// It retains its value between the function call.
 
 int main()
 {

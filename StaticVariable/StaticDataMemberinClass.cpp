@@ -3,7 +3,7 @@
 using namespace std;
 
 // When a data member of a class is declared as static, it is shared by all objects of the class.
-// There is only one copy of the static member, regardless of how many objects of the calss are created.
+// There is only one copy of the static member, regardless of how many objects of the class are created.
 
 class MyClass
 {

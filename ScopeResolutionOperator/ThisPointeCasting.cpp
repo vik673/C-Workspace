@@ -16,7 +16,7 @@ class Derived : public Base
     public:
     void display()
     {
-        cout << "Derived class displayt function " << endl;
+        cout << "Derived class display function " << endl;
     }
     void callBaseDisplay()
     {
