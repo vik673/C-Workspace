@@ -2,8 +2,8 @@
 
 using namespace std;
 
-// Lambda Expression often have complex or unnamed typpes. Using auto makes 
-// it easies to store and use lamda function.
+// Lambda Expression often have complex or unnamed typpes. 
+// Using auto makes, it easies to store and use lamda function.
 
 int main()
 {

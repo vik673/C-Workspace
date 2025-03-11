@@ -1,10 +1,9 @@
 #include<iostream>
 #include<vector>
 
-// 1. Complex type declaration
-// when working with complex types, such
-// as iterator or template types, auto can 
-// make the code can make the code more readable.
+// Complex type declaration
+// when working with complex types, such as iterator or 
+// template types, auto can make the code more readable.
 
 
 int main()

@@ -2,7 +2,8 @@
 
 using namespace std;
 
-// In tempate programming, auto can simplify code by avoiding the need to explicitly speify types.
+// In tempate programming, auto can simplify code 
+// by avoiding the need to explicitly speify types.
 
 template<typename T, typename U>
 
