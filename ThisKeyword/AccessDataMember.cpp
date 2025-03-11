@@ -2,6 +2,11 @@
 
 using namespace std;
 
+// Accessing Members
+// you can use this to access the data members and member function of the class.
+// this->datamember
+// this->memberFunction
+
 class MyClass{
     private:
      int x;

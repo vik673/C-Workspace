@@ -1,5 +1,8 @@
 #include<iostream>
 
+// Implicitly avaiable
+// You do not need to declare this, it is implicitly available in non-static member function
+
 class MyClass
 {
     private:
