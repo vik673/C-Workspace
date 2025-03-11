@@ -4,3 +4,4 @@
 4. what is shallow copy and deep copy. explain with help of example?
 5. what is static cast method in C++?
 6. how operator overloading workd in C++?
+7. Implement the STL in C++?

@@ -3,8 +3,8 @@
 using namespace std;
 
 // A member function declared as
-// const can not modify the object's state
-// (i.e it cannot modify non-mutable data members.)
+// const can not modify the object's state 
+// (i.e it cannot modify non-mutable data members)
 
 class MyClass
 {
@@ -14,7 +14,8 @@ class MyClass
     MyClass (int v):value(v) {}
     int getValue() const {
         //const member unction 
-        // value = 10;  // error : can not modify data members in a const unction
+        // value = 10;  
+        // error : can not modify data members in a const function
         return value;
     }
 };

@@ -1,10 +1,12 @@
 #include<iostream>
 
 using namespace std;
+
 /*
- Const can be used to specify that the return
- value of a function should not be modified.
+Const can be used to specify that the return
+value of a function should not be modified.
 */
+
 const int getConstantValue()
 {
     return 42;
